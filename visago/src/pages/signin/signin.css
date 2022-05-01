@@ -1,0 +1,81 @@
+.signin{
+    height: calc(100vh-50px);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background-size: cover;
+    position: relative;
+    align-items:center;
+}
+
+.signinImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 520px;
+    object-fit:fill;
+    position:absolute;
+    display: flex;
+}
+
+.signintitle{
+    margin-top: 30px ;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+   
+}
+.trans{
+    background: rgba(24, 1, 31, 0.274);
+    
+  width: 350px;
+  align-items:center;
+  height: 410px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 250px;
+  color: rgb(248, 248, 248);
+  margin-top: 530px;
+  display: flex;
+  position: absolute;
+}
+
+.signinform{
+    margin-top: 520px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;      
+}
+
+.signinform>label{
+    margin:2px 0;
+    background-color: rgb(228, 206, 253);
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    flex-direction: column;
+    width: 280px;
+}
+
+.signinput{
+    padding: 5px;
+    background-color:rgb(222, 230, 238);
+    border-radius: 10px;
+    position: relative;
+}
+
+.signinbtn{
+    margin-top: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: rgb(67, 3, 131);
+    border-radius: 50px;
+    padding: 10px;
+    color: aliceblue;
+    position: relative;
+}
+.space{
+    margin-bottom: 10px;
+    position: relative;
+}
