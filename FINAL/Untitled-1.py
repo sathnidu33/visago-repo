@@ -70,9 +70,11 @@ def calculateEngagement(db, sessionId, StudentId):
 def engagement_update(db, sessionId, StudentId, engagement):
     db.child(sessionId).child(StudentId).update(engagement)
 
-
-while True:
-    calculateEngagement(db=db, sessionId=sessionId, StudentId=StudentId)
-    threeData()
-    print("Updated")
-    time.sleep(5)
+try:
+    while True:
+        calculateEngagement(db=db, sessionId=sessionId, StudentId=StudentId)
+        threeData()
+        print("Updated")
+        time.sleep(5)
+except KeyboardInterrupt:
+    pass
